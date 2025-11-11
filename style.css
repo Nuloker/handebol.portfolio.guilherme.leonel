@@ -245,7 +245,6 @@ footer {
     /* Ajustes gerais para telas menores */
     body {
         padding: 10px; /* Reduz o padding geral */
-        background-image: none; /* Remove a imagem de fundo do body */
     }
 
     body::before {
