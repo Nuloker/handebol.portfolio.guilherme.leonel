@@ -21,6 +21,16 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     /**
+     * Coloca o foco em um elemento específico.
+     * @param {HTMLElement} element - O elemento que receberá o foco.
+     */
+    function focu(element) {
+        if (element) {
+            element.focus();
+        }
+    }
+
+    /**
      * Mostra uma seção específica e esconde as outras.
      * @param {string} targetId - O ID da seção a ser exibida (ex: '#sobre').
      */
@@ -35,6 +45,8 @@ document.addEventListener('DOMContentLoaded', function() {
             const targetSection = document.querySelector(targetId);
             if (targetSection) {
                 targetSection.classList.add('active');
+                // Coloca foco no conteúdo aberto
+                focu(targetSection);
             }
         }
     }
