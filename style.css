@@ -90,6 +90,7 @@ body {
 /* Links da navegação */
 .sidebar ul li a {
     display: block;
+    text-align: center;
     padding: 15px 25px;
     color: #fff;
     text-decoration: none;
