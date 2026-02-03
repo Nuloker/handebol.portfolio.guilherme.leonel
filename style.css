@@ -171,6 +171,7 @@ section#fotos {
     text-align: center;
 }
 
+/* Centraliza o conteúdo da seção Vídeos */
 section#videos {
     text-align: center;
 }
@@ -297,9 +298,29 @@ footer {
         border-radius: 20px;
     }
 
+    /* Centraliza o conteúdo da seção Sobre */
+    section#sobre {
+        text-align: center;
+    }
+
+    /* Centraliza o conteúdo da seção Currículo */
+    section#curriculo {
+        text-align: center;
+    }
+
+    /* Centraliza o conteúdo da seção Fotos */
+    section#fotos {
+        text-align: center;
+    }
+
+    /* Centraliza o conteúdo da seção Vídeos */
+    section#videos {
+        text-align: center;
+    }
+
     /* Ajuste no título principal */
     header h1 {
-        font-size: 1.8em; /* Reduz o tamanho da fonte */
+         font-size: 1.8em; /* Reduz o tamanho da fonte */
     }
 
     /* Ajuste na grade do currículo */
