@@ -156,6 +156,25 @@ section {
     border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
+/* Centraliza o conteúdo da seção Sobre */
+section#sobre {
+    text-align: center;
+}
+
+/* Centraliza o conteúdo da seção Currículo */
+section#curriculo {
+    text-align: center;
+}
+
+/* Centraliza o conteúdo da seção Fotos */
+section#fotos {
+    text-align: center;
+}
+
+section#videos {
+    text-align: center;
+}
+
 /* Modificador para exibir uma seção */
 section.active {
     display: block;
